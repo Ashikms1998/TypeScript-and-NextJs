@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    
+    "target": "es2016", //eath js nte version aan convert akkn nnullathan if need latest esNext ith kodutha old browser use akknnavrk use akkn pattula                                 /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+    
+    "module": "commonjs", //project node js  nu aanenkil common js(require mathreme ullu) use akkum or if we need import and require then use AMD                                           
+    "esModuleInterop": true,                             
+    "forceConsistentCasingInFileNames": true,            
+    "strict": true,                                      
+    "skipLibCheck": true,   //library kk akath ulla ts um aayitt conflict aavula
+    "rootDir": "./src",  //ts nte root file evide aan ullath nn paranj kodukkan                        
+    "outDir": "./public" //js file evide aan nn paranj kodukknm ath aan ith
+  }
+}
